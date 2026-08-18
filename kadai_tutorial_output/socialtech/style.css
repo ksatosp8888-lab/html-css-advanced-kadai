@@ -817,9 +817,8 @@ justify-content: space-between;
    .fivegoals-image-left {
      align-self: center;
    }
-   }
 
- /* mission.html用スタイル */
+    /* mission.html用スタイル */
  /* ミッションのメインビジュアル */
  .mission-main-inner {
    background-image: url("images/mission/mission-main.png");
@@ -1005,73 +1004,5 @@ justify-content: space-between;
    font-size: 28px;
    margin: 0;
  }
-
-  /* プロダクトページ */
-   #product-main {
-     height: 256px;
-     margin-top: 4%;
-     position: relative;
-   }
- 
-   .product-main-inner {
-     height: 80%;
-     background-size: cover;
-   }
- 
-   #product-title {
-     width: 136px;
-     height: 256px;
-     position: absolute;
-     top: -10%;
-   }
-   
-   #product-title h1 {
-     left: 20px;
-     font-size: 40px;
-   }
- 
-   #product-title h1 span {
-     font-size: 18px;
-   }
- 
-   #product-title > p {
-     top: 180px;
-     left: 20px;
-     font-size: 13px;
-   }
-
-    /* セクション */
-   .product-section {
-     flex-direction: column;
-   }
- 
-   .product-section .product-section-img {
-     width: 100%;
-   }
-   
-   .product-section .product-section-img img {
-     width: 100%;
-     padding: 0;
-   }
- 
-   /* 左が画像のセクション*/
-   .product-section-left .product-section-img img {
-     border-radius: 0 300px 0 0;
-   }
- 
-   .product-section-left .product-read {
-     width: 100%;
-     flex-grow: 1;
-   }
- 
-   /* 右が画像のセクション*/
-   .product-section-right .product-section-img img {
-     order: 1;
-     border-radius: 300px 0 0 0;
-   }
- 
-   .product-section-right .product-read {
-     order: 2;
-     width: 100%;
-   }
+}
 
